@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: " General Sans";
+  box-sizing: border-box;
 }
 html,
 body {
@@ -14,10 +16,77 @@ body {
   width: 100%;
   height: 100vh;
   background-color: black;
+  color: #fff;
 }
-#nav{
-    width: 100%;
+#nav {
+  width: 100%;
+
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #nav a {
   color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+#heading {
+  margin-top: 80px;
+}
+#heading h1 {
+  margin-left: 40px;
+  opacity: 0.6;
+  line-height: 1;
+  font-family: "General Sans";
+  font-size: 11vw;
+  text-transform: uppercase;
+}
+.blockText {
+  width: fit-content;
+}
+.blockText #secondh1 {
+  margin-left: 150px;
+}
+.blockText #subtext {
+  text-align: right;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.subheadings {
+  margin-top: 100px;
+  padding-right: 35px;
+}
+.subheadings h5 {
+  font-size: 1vw;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 0.5vw;
+}
+.heroFooter {
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+  padding: 0 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroFooter a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.iconset {
+  display: flex;
+  gap: 6px;
+}
+#circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(80, 80, 80, 0.701);
+  border-radius: 50%;
 }
