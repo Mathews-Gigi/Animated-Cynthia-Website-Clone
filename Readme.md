@@ -18,5 +18,7 @@ Sheryians Coding School
 
 ## Lessons Learned
 
-I buils this website to learn to work with CSS Animation and Advance Client Side Web Dev techniques
+I buils this website to learn to work with CSS Animation and Advance Client Side Web Dev techniques.
+A great opportunity to learn and work in Front end CSS and client Experience .
+
 
